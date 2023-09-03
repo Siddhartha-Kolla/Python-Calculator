@@ -3,6 +3,8 @@ from tkinter import *
 # Configuration
 root = Tk()
 root.title("Simple Calculator")
+p = PhotoImage("calculator.png")
+root.iconphoto(False, p)
 
 # Entry
 e = Entry(root,width=40,borderwidth=5)
